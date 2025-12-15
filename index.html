@@ -48,7 +48,10 @@
       </p>
 
       <div class="hero-btns">
-        <a href="assets/Data_Analyst_Resume_doc.pdf" download class="btn">Download Resume</a>
+        <!-- FIXED: opens PDF, does NOT download -->
+        <a href="assets/Data_Analyst_Resume_doc.pdf" target="_blank" class="btn">
+          Resume
+        </a>
         <a href="#projects" class="btn-outline">View My Work</a>
       </div>
     </div>
@@ -59,7 +62,6 @@
 
   </div>
 </section>
-
 
 <main>
 
@@ -74,7 +76,6 @@
     and creating reports that help businesses make better decisions.
   </p>
 </section>
-
 
 <!-- ======================================
      PROJECTS
@@ -93,41 +94,40 @@
 
 <article class="project-card">
 <h3>Delivery Analytics – Delay Insight</h3>
-<p>SQL + Excel delay reason analysis dashboard.</p>
+<p>SQL, Excel & Python-based delivery delay analysis.</p>
 <a class="btn-sm-outline" href="assets/reports/Delivery_Analytics_Dashboard_Report.pdf" target="_blank">View Report</a>
 <a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Delivery-Analytics-Project" target="_blank">GitHub</a>
 </article>
 
 <article class="project-card">
 <h3>Factory Machine Downtime Analysis</h3>
-<p>Tableau downtime pattern reporting.</p>
+<p>Excel-based downtime pattern analysis and efficiency insights.</p>
 <a class="btn-sm-outline" href="assets/reports/Daikibo_Downtime_Report.pdf" target="_blank">View Report</a>
 <a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Factory_Machine_DownTime_Analysis" target="_blank">GitHub</a>
 </article>
 
 <article class="project-card">
 <h3>Retail Sales Performance Analysis</h3>
-<p>Power BI KPI dashboard for decision insights.</p>
+<p>Power BI KPI dashboard for business decision insights.</p>
 <a class="btn-sm-outline" href="assets/reports/Sales_Analysis_Report.pdf" target="_blank">View Report</a>
 <a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Retail-Sales-Performance-Analysis" target="_blank">GitHub</a>
 </article>
 
 <article class="project-card">
 <h3>Saree Inventory Management</h3>
-<p>Java + JSP full-stack inventory management.</p>
+<p>Java + JSP full-stack inventory management system.</p>
 <a class="btn-sm" href="https://github.com/TNamrathaPadiyar/saree-inventory-management" target="_blank">GitHub</a>
 </article>
 
 <article class="project-card">
 <h3>Workforce Equality Analysis</h3>
-<p>Excel dashboard showing diversity metrics.</p>
+<p>Excel dashboard analyzing workforce diversity metrics.</p>
 <a class="btn-sm-outline" href="assets/reports/workforce_report.pdf" target="_blank">View Report</a>
 <a class="btn-sm" href="https://github.com/TNamrathaPadiyar/workforce_equality_Analysis" target="_blank">GitHub</a>
 </article>
 
 </div>
 </section>
-
 
 <!-- ======================================
      TECHNICAL SKILLS
@@ -165,15 +165,11 @@
 <li>MySQL</li>
 <li>Power BI</li>
 <li>Tableau</li>
-
-
-
 </ul>
 </div>
 
 </div>
 </section>
-
 
 <!-- ======================================
      CERTIFICATES
@@ -183,18 +179,16 @@
 
 <div class="cert-grid">
 <div class="cert-card">
-  <h4>Deloitte Job Simulation-2025</h4>
+  <h4>Deloitte Job Simulation – 2025</h4>
   <a href="assets/certs/deloitte.pdf" target="_blank">View Certificate</a>
 </div>
 
 <div class="cert-card">
-  <h4>IBM Data Fundamentals-2025</h4>
+  <h4>IBM Data Fundamentals – 2025</h4>
   <a href="assets/certs/ibm.pdf" target="_blank">View Certificate</a>
 </div>
 </div>
-
 </section>
-
 
 <!-- ======================================
      EDUCATION
@@ -204,18 +198,16 @@
 
 <div class="edu-grid">
 <div class="edu-card">
-  <h3>MCA – NMAMIT (2024-2026)</h3>
+  <h3>MCA – NMAMIT (2024–2026)</h3>
   <p>CGPA: 8.69</p>
 </div>
 
 <div class="edu-card">
-  <h3>BSc – MGM Udupi (2021-2024)</h3>
+  <h3>BSc – MGM Udupi (2021–2024)</h3>
   <p>CGPA: 8.54</p>
 </div>
 </div>
-
 </section>
-
 
 <!-- ======================================
      SOFT SKILLS
@@ -236,6 +228,16 @@
 </div>
 
 <div class="soft-card">
+<h4>Leadership & Teamwork</h4>
+<p>
+Led the women’s Tug of War team for Sports Day
+<strong>2024</strong> and <strong>2025</strong>,
+securing <strong>1st place</strong> (2024) and
+<strong>2nd place</strong> (2025).
+</p>
+</div>
+
+<div class="soft-card">
 <h4>Analytical Thinking</h4>
 <p>Strong EDA, insights & pattern interpretation.</p>
 </div>
@@ -245,14 +247,8 @@
 <p>Handled dataset issues & logic corrections.</p>
 </div>
 
-<div class="soft-card">
-<h4>Teamwork</h4>
-<p>Collaborated in full-stack Java/JSP project.</p>
-</div>
-
 </div>
 </section>
-
 
 <!-- ======================================
      CONTACT
@@ -263,44 +259,34 @@
 <div class="contact-wrap">
 
 <div class="contact-card">
-
 <form action="https://api.web3forms.com/submit" method="POST">
 
-  <!-- REAL ACCESS KEY -->
-  <input type="hidden" name="access_key" value="1ff7284d-0743-4a7e-972d-9cdce4d5ea76"/>
+<input type="hidden" name="access_key" value="1ff7284d-0743-4a7e-972d-9cdce4d5ea76"/>
+<input type="hidden" name="redirect" value="https://tnamrathapadiyar.github.io/#message-success"/>
 
-  <!-- SUCCESS REDIRECT -->
-  <input type="hidden" name="redirect" value="https://tnamrathapadiyar.github.io/#message-success"/>
+<label>Name</label>
+<input type="text" name="name" required/>
 
-  <label>Name</label>
-  <input type="text" name="name" required/>
+<label>Email</label>
+<input type="email" name="email" required/>
 
-  <label>Email</label>
-  <input type="email" name="email" required/>
+<label>Message</label>
+<textarea name="message" required></textarea>
 
-  <label>Message</label>
-  <textarea name="message" required></textarea>
-
-  <button type="submit" class="btn" style="width:100%;">Send</button>
+<button type="submit" class="btn" style="width:100%;">Send</button>
 </form>
-
-<div id="successBox" class="success-box">
-  Your message has been received! I will respond shortly.
-</div>
-
 </div>
 
 <aside class="contact-info">
-  <p><strong>Email:</strong> <a href="mailto:namdevba000@gmail.com">namdevba000@gmail.com</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/TNamrathaPadiyar" target="_blank">github.com/TNamrathaPadiyar</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/namratha-padiyar" target="_blank">linkedin.com/in/namratha-padiyar</a></p>
+<p><strong>Email:</strong> <a href="mailto:namdevba000@gmail.com">namdevba000@gmail.com</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/TNamrathaPadiyar" target="_blank">github.com/TNamrathaPadiyar</a></p>
+<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/namratha-padiyar" target="_blank">linkedin.com/in/namratha-padiyar</a></p>
 </aside>
 
 </div>
 </section>
 
 </main>
-
 
 <footer class="footer">
 © <span id="year"></span> T Namratha Padiyar — All Rights Reserved
@@ -309,4 +295,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-<!-- rebuild -->
