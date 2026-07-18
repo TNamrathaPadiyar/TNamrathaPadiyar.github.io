@@ -1,311 +1,1441 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>T Namratha Padiyar — Portfolio</title>
-<link rel="stylesheet" href="styles.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>T Namratha Padiyar | Portfolio</title>
+
+    <meta name="description"
+          content="Portfolio of T. Namratha Padiyar - Analytics, Reporting and Business Intelligence">
+
+    <meta name="author"
+          content="T. Namratha Padiyar">
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
 
-<!-- ======================================
-     NAVBAR
-====================================== -->
-<header class="navbar">
-  <div class="nav-container">
-    <div class="logo">T. Namratha Padiyar</div>
+<!-- ========================================================= -->
+<!-- NAVIGATION -->
+<!-- ========================================================= -->
 
-    <nav id="navLinks" class="navlinks">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Technical Skills</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#education">Education</a>
-      <a href="#softskills">Soft Skills</a>
-      <a href="#contact">Contact</a>
-      <a href="https://www.linkedin.com/in/namratha-padiyar" target="_blank" class="btn">LinkedIn</a>
-      <a href="https://github.com/TNamrathaPadiyar" target="_blank" class="btn">GitHub</a>
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <a href="#home">
+
+                T. NAMRATHA PADIYAR
+
+            </a>
+
+        </div>
+
+        <div class="header-socials" aria-label="Professional profiles">
+            <a href="https://github.com/TNamrathaPadiyar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.72 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.42c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.92-2.35 4.79-4.58 5.04.36.32.68.93.68 1.88 0 1.36-.01 2.45-.01 2.79 0 .27.18.6.69.49A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/></svg></a>
+            <a href="https://www.linkedin.com/in/namratha-padiyar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3ZM8.35 18H6V10.4h2.35V18ZM7.18 9.35a1.36 1.36 0 1 1 0-2.72 1.36 1.36 0 0 1 0 2.72ZM18 18h-2.34v-3.7c0-.88-.02-2.02-1.23-2.02-1.24 0-1.43.96-1.43 1.96V18h-2.35v-7.6h2.25v1.04h.03c.31-.59 1.08-1.22 2.22-1.22 2.38 0 2.82 1.57 2.82 3.61V18Z"/></svg></a>
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#experience">Experience</a></li>
+
+            <li><a href="#toolkit">Toolkit</a></li>
+
+            <li><a href="#capabilities">Capabilities</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#certifications">Certifications</a></li>
+
+            <li><a href="#leadership">Leadership</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <button class="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+
     </nav>
 
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-  </div>
 </header>
 
-<!-- ======================================
-     HERO SECTION
-====================================== -->
-<section id="hero" class="hero">
-  <div class="hero-inner container">
+<!-- ========================================================= -->
+<!-- QUOTE -->
+<!-- ========================================================= -->
 
-    <div class="hero-text">
-      <h1 class="title">T Namratha Padiyar</h1>
-      <p class="subtitle">Data Analyst | MCA (NMAMIT)</p>
+<section class="quote-section">
 
-      <p class="hero-desc">
-        Dedicated and detail-oriented Data Analyst skilled in Python, SQL, Power BI, Tableau,
-        Excel, EDA, reporting, and dashboard development. Passionate about transforming
-        raw data into clear, actionable insights that support decision-making.
-      </p>
+    <div class="quote-container">
 
-      <div class="hero-btns">
-        <a href="assets/resume.pdf" download class="btn">Download Resume</a>
-        <a href="#projects" class="btn-outline">View My Work</a>
-      </div>
+        <blockquote>
+
+            “The goal is to turn data into information,
+            and information into insight.”
+
+        </blockquote>
+
+        <p class="quote-author">
+
+            — Carly Fiorina
+
+        </p>
+
     </div>
 
-    <div class="hero-image">
-      <img src="assets/img/profile.jpg" alt="Profile Image"/>
+</section>
+
+<!-- ========================================================= -->
+<!-- HERO -->
+<!-- ========================================================= -->
+
+<section id="home"
+         class="hero">
+
+    <div class="hero-left">
+
+        <p class="hero-tag">
+
+           Analyzing Business. Delivering Insights. Driving Decisions.
+
+        </p>
+
+        <h1>
+
+            Turning Business Questions
+            Into Actionable Insights.
+
+        </h1>
+
+        <p class="hero-description">
+
+           I enjoy exploring business challenges through data,
+           transforming complex information into clear insights and practical recommendations.
+           Every project I build reflects a structured analytical approach focused on solving real business problems.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects"
+               class="primary-btn">
+
+                Explore Projects
+
+            </a>
+
+            <a href="#contact"
+               class="secondary-btn">
+
+                Contact Me
+
+            </a>
+
+        </div>
+
     </div>
 
-  </div>
-</section>
+    <div class="hero-right">
 
+        <div class="profile-card">
 
-<main>
+            <img src="assets/img/profile.jpg"
+                 alt="T Namratha Padiyar">
 
-<!-- ======================================
-     ABOUT
-====================================== -->
-<section id="about" class="section container">
-  <h2>About Me</h2>
-  <p class="lead">
-    I transform raw data into meaningful insights using analytics, visualization,
-    data storytelling, and problem-solving. I enjoy building dashboards, analyzing patterns,
-    and creating reports that help businesses make better decisions.
-  </p>
-</section>
+        </div>
 
+        <div class="hero-status">
 
-<!-- ======================================
-     PROJECTS
-====================================== -->
-<section id="projects" class="section container">
-<h2>Projects</h2>
+            <span>MCA Graduate</span>
 
-<div class="projects-grid">
+            <span>Bangalore, Karnataka</span>
 
-<article class="project-card">
-<h3>Telecom Customer Churn Analysis</h3>
-<p>Churn factor detection using EDA & insights.</p>
-<a class="btn-sm-outline" href="assets/reports/Telecom_Churn_Analysis_Report.pdf" target="_blank">View Report</a>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Telecom-Churn-Project" target="_blank">GitHub</a>
-</article>
+            <span>Open to Analyst Opportunities</span>
 
-<article class="project-card">
-<h3>Delivery Analytics – Delay Insight</h3>
-<p>SQL + Excel delay reason analysis dashboard.</p>
-<a class="btn-sm-outline" href="assets/reports/Delivery_Analytics_Final_Report.pdf" target="_blank">View Report</a>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Delivery-Analytics-Project" target="_blank">GitHub</a>
-</article>
+        </div>
 
-<article class="project-card">
-<h3>Factory Machine Downtime Analysis</h3>
-<p>Tableau downtime pattern reporting.</p>
-<a class="btn-sm-outline" href="assets/reports/Daikibo_Downtime_Report.pdf" target="_blank">View Report</a>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Factory_Machine_DownTime_Analysis" target="_blank">GitHub</a>
-</article>
+        <p class="hero-email">namrathapadiyart@gmail.com</p>
 
-<article class="project-card">
-<h3>Retail Sales Performance Analysis</h3>
-<p>Power BI KPI dashboard for decision insights.</p>
-<a class="btn-sm-outline" href="assets/reports/Sales_Analysis_Report.pdf" target="_blank">View Report</a>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/Retail-Sales-Performance-Analysis" target="_blank">GitHub</a>
-</article>
-
-<article class="project-card">
-<h3>Saree Inventory Management</h3>
-<p>Java + JSP full-stack inventory management.</p>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/saree-inventory-management" target="_blank">GitHub</a>
-</article>
-
-<article class="project-card">
-<h3>Workforce Equality Analysis</h3>
-<p>Excel dashboard showing diversity metrics.</p>
-<a class="btn-sm-outline" href="assets/reports/workforce_report.pdf" target="_blank">View Report</a>
-<a class="btn-sm" href="https://github.com/TNamrathaPadiyar/workforce_equality_Analysis" target="_blank">GitHub</a>
-</article>
-
-</div>
-</section>
-
-
-<!-- ======================================
-     TECHNICAL SKILLS
-====================================== -->
-<section id="skills" class="section container">
-<h2>Technical Skills</h2>
-
-<div class="tech-skill-grid">
-
-<div class="tech-group">
-<h4>Analytics Skills</h4>
-<ul>
-<li>Exploratory Data Analysis (EDA)</li>
-<li>Data Cleaning</li>
-<li>Visualization & Storytelling</li>
-<li>Dashboard Development</li>
-<li>Statistical Analysis</li>
-</ul>
-</div>
-
-<div class="tech-group">
-<h4>Programming</h4>
-<ul>
-<li>Python (Pandas, NumPy, Seaborn, Matplotlib)</li>
-<li>SQL (Joins, Windows, Aggregations)</li>
-<li>Java / OOP</li>
-<li>HTML, CSS, JavaScript</li>
-</ul>
-</div>
-
-<div class="tech-group">
-<h4>Tools</h4>
-<ul>
-<li>Excel (PivotTables, Analysis)</li>
-<li>MySQL</li>
-<li>Power BI</li>
-<li>Tableau</li>
-
-
-
-</ul>
-</div>
-
-</div>
-</section>
-
-
-<!-- ======================================
-     CERTIFICATES
-====================================== -->
-<section id="certificates" class="section container">
-<h2>Certificates</h2>
-
-<div class="cert-grid">
-<div class="cert-card">
-  <h4>Deloitte Job Simulation-2025</h4>
-  <a href="assets/certs/deloitte.pdf" target="_blank">View Certificate</a>
-</div>
-
-<div class="cert-card">
-  <h4>IBM Data Fundamentals-2025</h4>
-  <a href="assets/certs/ibm.pdf" target="_blank">View Certificate</a>
-</div>
-</div>
+    </div>
 
 </section>
 
+<!-- ========================================================= -->
+<!-- ABOUT -->
+<!-- ========================================================= -->
 
-<!-- ======================================
-     EDUCATION
-====================================== -->
-<section id="education" class="section container">
-<h2>Education</h2>
+<section id="about"
+         class="about-section">
 
-<div class="edu-grid">
-<div class="edu-card">
-  <h3>MCA – NMAMIT (2024-2026)</h3>
-  <p>CGPA: 8.69</p>
-</div>
+    <div class="section-heading">
 
-<div class="edu-card">
-  <h3>BSc – MGM Udupi (2021-2024)</h3>
-  <p>CGPA: 8.54</p>
-</div>
-</div>
+        <p>ABOUT ME</p>
+
+        <h2>
+
+            Building analytical solutions that connect
+            business challenges with data-driven decisions.
+
+        </h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <article class="about-card">
+
+            <h3>
+
+                Business-Oriented Analytics
+
+            </h3>
+
+            <p>
+
+                Transforming raw business data into structured
+                insights that support informed decision-making.
+
+            </p>
+
+        </article>
+
+        <article class="about-card">
+
+            <h3>
+
+                End-to-End Problem Solving
+
+            </h3>
+
+            <p>
+
+                Applying complete analytical workflows from
+                data preparation and exploration to reporting
+                and business recommendations.
+
+            </p>
+
+        </article>
+
+        <article class="about-card">
+
+            <h3>
+
+                Multi-Domain Experience
+
+            </h3>
+
+            <p>
+
+                Built analytics projects across retail,
+                logistics, workforce, telecom and operational
+                business scenarios.
+
+            </p>
+
+        </article>
+
+        <article class="about-card">
+
+            <h3>
+
+                Continuous Learning
+
+            </h3>
+
+            <p>
+
+                Strengthening analytical capabilities through
+                industry simulations, certifications,
+                research and hands-on projects.
+
+            </p>
+
+        </article>
+
+    </div>
+
+    <div class="about-footer">
+
+        <p>
+
+            I believe effective analytics begins with understanding
+            the business problem before selecting the right tools,
+            ensuring every insight contributes to meaningful
+            business outcomes.
+
+        </p>
+
+    </div>
+
+</section>
+<!-- ========================================================= -->
+<!-- EDUCATION -->
+<!-- ========================================================= -->
+
+<section id="education" class="education-section">
+
+    <div class="section-heading">
+
+        <p>EDUCATION</p>
+
+        <h2>
+            Building a Strong Academic Foundation
+        </h2>
+
+    </div>
+
+    <div class="education-timeline">
+
+        <!-- MCA -->
+
+        <article class="education-card">
+
+            <div class="education-year">
+
+                2024 – 2026
+
+            </div>
+
+            <div class="education-content">
+
+                <h3>
+
+                    Master of Computer Applications
+
+                </h3>
+
+                <h4>
+
+                    NMAM Institute of Technology, Nitte
+
+                </h4>
+
+                <p>
+
+                    CGPA : <strong>9.00 / 10</strong>
+
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- BSC -->
+
+        <article class="education-card">
+
+            <div class="education-year">
+
+                2021 – 2024
+
+            </div>
+
+            <div class="education-content">
+
+                <h3>
+
+                    Bachelor of Science
+                    <br>
+                    Computer Science & Mathematics
+
+                </h3>
+
+                <h4>
+
+                    Mahatma Gandhi Memorial College,
+                    Udupi
+
+                </h4>
+
+                <p>
+
+                    CGPA : <strong>8.54 / 10</strong>
+
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
 
 </section>
 
 
-<!-- ======================================
-     SOFT SKILLS
-====================================== -->
-<section id="softskills" class="section container">
-<h2>Soft Skills</h2>
 
-<div class="soft-grid">
+<!-- ========================================================= -->
+<!-- EXPERIENCE -->
+<!-- ========================================================= -->
 
-<div class="soft-card">
-<h4>Communication</h4>
-<p>Presented research paper at NMITCON 2025.</p>
+<section id="experience" class="experience-section">
+
+    <div class="section-heading">
+
+        <p>EXPERIENCE</p>
+
+        <h2>
+
+            Professional Experience
+
+        </h2>
+
+    </div>
+
+    <article class="experience-card">
+
+        <div class="experience-header">
+
+            <div>
+
+                <h3>
+
+                    Intern
+
+                </h3>
+
+                <h4>
+
+                    GoYaana (Best Trip Tech)
+
+                </h4>
+
+            </div>
+
+            <span class="experience-duration">
+
+                Dec 2025 – Feb 2026
+
+            </span>
+
+        </div>
+
+        <div class="experience-body">
+
+            <div class="experience-skills" aria-label="Skills learned during the internship">
+                <span>Skills learned</span>
+                <img src="assets/img/Microsoft Excel.png" alt="Microsoft Excel" title="Microsoft Excel">
+                <img src="assets/img/GoogleSheets.png" alt="Google Sheets" title="Google Sheets">
+                <img src="assets/img/MySQL.png" alt="MySQL" title="MySQL">
+                <img src="assets/img/workbench.jpeg" alt="MySQL Workbench" title="MySQL Workbench">
+                <img src="assets/img/AWS.png" alt="AWS" title="AWS">
+                <img src="assets/img/Amazon S3.jpeg" alt="Amazon S3" title="Amazon S3">
+            </div>
+
+            <ul>
+
+                <li>
+                    Maintained and validated operational business data using Microsoft Excel, Google Sheets and MySQL Workbench.
+                </li>
+
+                <li>
+                    Prepared weekly analytical reports from customer feedback data to support operational monitoring.
+                </li>
+
+                <li>
+                    Assisted deployment activities involving Microsoft Azure databases and AWS S3 storage.
+                </li>
+
+                <li>
+                    Collaborated with cross-functional teams to support deployment, database management and daily business operations.
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="experience-actions">
+
+            <a href="about_me_Experience/Internship_cerficate_GOYAANA.pdf"
+               class="action-button document-link">
+
+                View Internship Certificate
+
+            </a>
+
+        </div>
+
+    </article>
+
+</section>
+<!-- ========================================================= -->
+<!-- ANALYTICAL TOOLKIT -->
+<!-- ========================================================= -->
+
+<section id="toolkit" class="toolkit-section">
+    <div class="section-heading">
+        <p>ANALYTICAL TOOLKIT</p>
+        <h2>Tools I Use to Turn Data into Decisions</h2>
+        <p class="section-description">A focused toolkit for analysis, reporting, automation, and business intelligence.</p>
+    </div>
+
+    <div class="toolkit-groups">
+        <article class="toolkit-group primary-toolkit">
+            <h3>Data Analysis</h3>
+            <div class="toolkit-grid">
+                <div class="tool-card"><img src="assets/img/Microsoft Excel.png" alt="Microsoft Excel"><h4>Microsoft Excel</h4><p>Power Query · Pivot Tables · Dashboards · Advanced Analytics</p></div>
+                <div class="tool-card"><img src="assets/img/SQL.png" alt="SQL"><h4>SQL</h4><p>Joins · CTEs · Window Functions · Business querying</p></div>
+                <div class="tool-card"><img src="assets/img/Python.png" alt="Python"><h4>Python</h4><p>EDA · Data Analysis · Automation · Visualization</p></div>
+            </div>
+        </article>
+        <article class="toolkit-group primary-toolkit">
+            <h3>Business Intelligence & Database</h3>
+            <div class="toolkit-grid">
+                <div class="tool-card"><img src="assets/img/Power BI.png" alt="Power BI"><h4>Power BI</h4><p>Interactive dashboards · KPI monitoring · Visual reporting</p></div>
+                <div class="tool-card"><img src="assets/img/MySQL.png" alt="MySQL"><h4>MySQL</h4><p>Database management · Structured analysis · Business data</p></div>
+                <div class="tool-card"><img src="assets/img/workbench.jpeg" alt="MySQL Workbench"><h4>Workbench</h4><p>Data validation · Query development · Database workflows</p></div>
+            </div>
+        </article>
+        <article class="toolkit-group">
+            <h3>Python Ecosystem</h3>
+            <div class="toolkit-grid">
+                <div class="tool-card"><img src="assets/img/Pandas.png" alt="Pandas"><h4>Pandas</h4><p>Data wrangling & analysis</p></div>
+                <div class="tool-card"><img src="assets/img/NumPy.png" alt="NumPy"><h4>NumPy</h4><p>Numerical analysis</p></div>
+                <div class="tool-card"><img src="assets/img/Matplotlib.png" alt="Matplotlib"><h4>Matplotlib</h4><p>Data visualization</p></div>
+                <div class="tool-card"><img src="assets/img/Seaborn.png" alt="Seaborn"><h4>Seaborn</h4><p>Statistical visualization</p></div>
+            </div>
+        </article>
+        <article class="toolkit-group secondary-toolkit">
+            <h3>Development & Cloud</h3>
+            <div class="toolkit-grid">
+                <div class="tool-card"><img src="assets/img/Git.png" alt="Git"><h4>Git</h4><p>Version control</p></div>
+                <div class="tool-card"><img src="assets/img/GitHub.png" alt="GitHub"><h4>GitHub</h4><p>Project publishing</p></div>
+                <div class="tool-card"><img src="assets/img/VS Code.jpeg" alt="VS Code"><h4>VS Code</h4><p>Development environment</p></div>
+                <div class="tool-card"><img src="assets/img/AWS.png" alt="AWS"><h4>AWS & S3</h4><p>Cloud storage & deployment</p></div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- CORE CAPABILITIES -->
+<!-- ========================================================= -->
+
+<section id="capabilities" class="capabilities-section">
+    <div class="section-heading"><p>CORE CAPABILITIES</p><h2>Business-Focused Analytical Strengths</h2></div>
+    <div class="capabilities-grid">
+        <article class="capability-card"><h3>Business Analysis</h3><p>Business problem solving · KPI monitoring · Root cause analysis · Trend analysis · Business recommendations</p></article>
+        <article class="capability-card"><h3>Reporting & Visualization</h3><p>Executive reporting · Dashboard design · Data storytelling · Business reporting · Performance monitoring</p></article>
+        <article class="capability-card"><h3>Data Preparation</h3><p>Data cleaning · Data validation · Power Query · Data transformation · Data modeling</p></article>
+        <article class="capability-card"><h3>Data Analysis</h3><p>Exploratory data analysis · Business insights · Operational analytics · Customer analytics · Retail analytics</p></article>
+        <article class="capability-card"><h3>Technical Analysis</h3><p>SQL querying · Advanced Excel · Python analytics · Power BI reporting · Spreadsheet automation</p></article>
+        <article class="capability-card"><h3>Professional Skills</h3><p>Analytical thinking · Problem solving · Documentation · Cross-functional collaboration · Continuous learning</p></article>
+    </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- PROJECTS -->
+<!-- ========================================================= -->
+
+<section id="projects" class="projects-section">
+
+    <div class="section-heading">
+
+        <p>FEATURED PROJECTS</p>
+
+        <h2>
+            Solving Business Problems Through Analytics
+        </h2>
+
+        <p class="section-description">
+
+            A collection of business-focused analytics projects demonstrating
+            data preparation, reporting, visualization and decision support
+            across multiple domains.
+
+        </p>
+
+    </div>
+
+    <div class="projects-grid" id="projects-grid">
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 01 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="stylesense">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/01_StyleSense_Analytics/thumbnail.png"
+                     alt="StyleSense Analytics">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Fashion Retail
+
+                </span>
+
+                <h3>
+
+                    StyleSense Analytics
+
+                </h3>
+
+                <p>
+
+                    Business analytics solution focused on merchandising,
+                    customer behaviour and profitability using Excel.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/excel.svg" alt="Excel">
+
+                    <img src="assets/icons/powerquery.svg" alt="Power Query">
+
+                    <img src="assets/icons/github.svg" alt="GitHub">
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 02 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="delivery">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/02_The_Last_Mile_Challenge/thumbnail.png"
+                     alt="The Last Mile Challenge">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Logistics
+
+                </span>
+
+                <h3>
+
+                    The Last Mile Challenge
+
+                </h3>
+
+                <p>
+
+                    Operational analytics case study identifying delivery
+                    bottlenecks and improving logistics performance.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/sql.svg" alt="SQL">
+
+                    <img src="assets/icons/python.svg" alt="Python">
+
+                    <img src="assets/icons/excel.svg" alt="Excel">
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 03 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="property">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/03_Property_Occupancy_Analytics/thumbnail.png"
+                     alt="Property Analytics">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Facility Operations
+
+                </span>
+
+                <h3>
+
+                    GrihaKutumbh Property Analytics
+
+                </h3>
+
+                <p>
+
+                    Occupancy and facility performance analytics supporting
+                    operational monitoring and resource utilization.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/powerbi.svg" alt="Power BI">
+
+                    <img src="assets/icons/sql.svg" alt="SQL">
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 04 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="adoption">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/04_Animal_Adoption_Analytics/thumbnail.png"
+                     alt="Animal Adoption">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Non-Profit Operations
+
+                </span>
+
+                <h3>
+
+                    Rescue to Adoption
+
+                </h3>
+
+                <p>
+
+                    SQL-driven operational analytics focused on improving
+                    adoption workflows and shelter performance.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/sql.svg" alt="SQL">
+
+                    <img src="assets/icons/mysql.svg" alt="MySQL">
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 05 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="telecom">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/05_Telecom_Churn_Investigation/thumbnail.png"
+                     alt="Telecom Churn">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Telecommunications
+
+                </span>
+
+                <h3>
+
+                    Telecom Churn Investigation
+
+                </h3>
+
+                <p>
+
+                    Exploratory data analysis identifying customer churn
+                    patterns, retention risks and business opportunities.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/python.svg" alt="Python">
+
+                    <img src="assets/icons/pandas.svg" alt="Pandas">
+
+                    <img src="assets/icons/matplotlib.svg" alt="Matplotlib">
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ===================================================== -->
+        <!-- PROJECT 06 -->
+        <!-- ===================================================== -->
+
+        <article class="project-card"
+                 data-project="workforce">
+
+            <div class="project-thumbnail">
+
+                <img src="portfolio project info/06_Workforce_Analytics/thumbnail.png"
+                     alt="Workforce Analytics">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-domain">
+
+                    Human Resources
+
+                </span>
+
+                <h3>
+
+                    Learning to Lead
+
+                </h3>
+
+                <p>
+
+                    Workforce analytics project evaluating employee
+                    performance, engagement and organizational trends.
+
+                </p>
+
+                <div class="project-tools">
+
+                    <img src="assets/icons/python.svg" alt="Python">
+
+                    <img src="assets/icons/pandas.svg" alt="Pandas">
+
+                    <img src="assets/icons/jupyter.svg" alt="Jupyter">
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- ========================================================= -->
+<!-- PROJECT MODAL -->
+<!-- ========================================================= -->
+
+<div id="project-modal" class="project-modal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="modal-container">
+
+        <!-- Close Button -->
+
+        <button class="modal-close">
+
+            &times;
+
+        </button>
+
+        <!-- LEFT SIDE -->
+
+        <div class="modal-image">
+
+            <img id="modal-dashboard"
+
+                 src=""
+
+                 alt="Project Dashboard">
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="modal-content">
+
+            <span id="modal-domain"
+
+                  class="modal-domain">
+
+            </span>
+
+            <h2 id="modal-title">
+
+            </h2>
+
+            <p id="modal-type"
+
+               class="modal-project-type">
+
+            </p>
+
+
+            <!-- ========================= -->
+
+            <!-- PROJECT OVERVIEW -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section overview-section">
+
+                <h3>
+
+                    Project Overview
+
+                </h3>
+
+                <p id="modal-overview">
+
+                </p>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- BUSINESS PROBLEM -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section problem-section">
+
+                <h3>
+
+                    Business Problem
+
+                </h3>
+
+                <p id="modal-problem">
+
+                </p>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- INSIGHTS -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section insights-section">
+
+                <h3>
+
+                    Key Insights
+
+                </h3>
+
+                <ul id="modal-insights">
+
+                </ul>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- RECOMMENDATIONS -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section recommendations-section">
+
+                <h3>
+
+                    Business Recommendations
+
+                </h3>
+
+                <ul id="modal-recommendations">
+
+                </ul>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- SKILLS -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section skills-section">
+
+                <h3>
+
+                    Skills Demonstrated
+
+                </h3>
+
+                <div id="modal-skills"
+
+                     class="skills-icons">
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- TOOLS -->
+
+            <!-- ========================= -->
+
+            <div class="modal-section tools-section">
+
+                <h3>
+
+                    Tools & Technologies
+
+                </h3>
+
+                <div id="modal-tools"
+
+                     class="tool-icons">
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================= -->
+
+            <!-- ACTION BUTTONS -->
+
+            <!-- ========================= -->
+
+            <div class="modal-buttons">
+
+                <a id="modal-github"
+
+                   target="_blank"
+
+                   class="modal-btn primary-btn">
+
+                    GitHub Repository
+
+                </a>
+
+                <a id="modal-report"
+
+                   target="_blank"
+
+                   class="modal-btn secondary-btn">
+
+                    View Report
+
+                </a>
+
+                <a id="modal-download"
+
+                   download
+
+                   class="modal-btn outline-btn">
+
+                    Download Report
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
+<!-- ========================================================= -->
+<!-- PROFESSIONAL LEARNING & CERTIFICATIONS -->
+<!-- ========================================================= -->
 
-<div class="soft-card">
-<h4>Leadership</h4>
-<p>TechTalk Event Head — Semaphore 2025.</p>
-</div>
+<section id="certifications" class="certifications-section">
 
-<div class="soft-card">
-<h4>Analytical Thinking</h4>
-<p>Strong EDA, insights & pattern interpretation.</p>
-</div>
+    <div class="section-heading">
 
-<div class="soft-card">
-<h4>Problem Solving</h4>
-<p>Handled dataset issues & logic corrections.</p>
-</div>
+        <p>PROFESSIONAL LEARNING</p>
 
-<div class="soft-card">
-<h4>Teamwork</h4>
-<p>Collaborated in full-stack Java/JSP project.</p>
-</div>
+        <h2>
 
-</div>
+            Continuous Learning Through Industry Certifications
+
+        </h2>
+
+        <p class="section-description">
+
+            Industry-recognized certifications, job simulations and
+            learning experiences that strengthened my analytical,
+            reporting and business problem-solving capabilities.
+
+        </p>
+
+    </div>
+
+    <div class="certification-grid">
+
+        <article class="certificate-card" data-certificate="ibm">
+
+            <img src="assets/certificates/ibm.png"
+                 alt="IBM">
+
+            <h3>IBM SkillsBuild</h3>
+
+            <p>IBM SkillsBuild · Data Fundamentals</p>
+
+        </article>
+
+        <article class="certificate-card" data-certificate="deloitte">
+
+            <img src="assets/certificates/deloitte.png"
+                 alt="Deloitte">
+
+            <h3>Deloitte</h3>
+
+            <p>Deloitte · Data Analytics Job Simulation</p>
+
+        </article>
+
+        <article class="certificate-card" data-certificate="quantium">
+
+            <img src="assets/certificates/quantium.png"
+                 alt="Quantium">
+
+            <h3>Quantium</h3>
+
+            <p>Quantium (Forage) · Data Analytics Job Simulation</p>
+
+        </article>
+
+        <article class="certificate-card" data-certificate="hp">
+
+            <img src="assets/certificates/hp.png"
+                 alt="HP">
+
+            <h3>HP LIFE</h3>
+
+            <p>HP LIFE · Presenting Data</p>
+
+        </article>
+
+    </div>
+
 </section>
 
 
-<!-- ======================================
-     CONTACT
-====================================== -->
-<section id="contact" class="section container">
-<h2>Contact</h2>
+<!-- ========================================================= -->
+<!-- CERTIFICATE MODAL -->
+<!-- ========================================================= -->
 
-<div class="contact-wrap">
+<div id="certificate-modal" class="certificate-modal">
 
-<div class="contact-card">
+    <div class="certificate-overlay"></div>
 
-<form action="https://api.web3forms.com/submit" method="POST">
+    <div class="certificate-container" style="max-height: 90vh; overflow-y: auto;">
 
-  <!-- REAL ACCESS KEY -->
-  <input type="hidden" name="access_key" value="1ff7284d-0743-4a7e-972d-9cdce4d5ea76"/>
+        <button class="certificate-close">
 
-  <!-- SUCCESS REDIRECT -->
-  <input type="hidden" name="redirect" value="https://tnamrathapadiyar.github.io/#message-success"/>
+            &times;
 
-  <label>Name</label>
-  <input type="text" name="name" required/>
+        </button>
 
-  <label>Email</label>
-  <input type="email" name="email" required/>
+        <div class="certificate-image">
 
-  <label>Message</label>
-  <textarea name="message" required></textarea>
+            <img id="certificate-preview"
 
-  <button type="submit" class="btn" style="width:100%;">Send</button>
-</form>
+                 src=""
 
-<div id="successBox" class="success-box">
-  Your message has been received! I will respond shortly.
+                 alt="Certificate">
+
+        </div>
+
+        <div class="certificate-content">
+
+            <h2 id="certificate-title"></h2>
+
+            <p id="certificate-provider"></p>
+
+            <div class="certificate-description">
+
+                <p id="certificate-overview"></p>
+
+            </div>
+
+            <div class="certificate-skills">
+
+                <h3>
+
+                    Skills Gained
+
+                </h3>
+
+                <ul id="certificate-skills-list">
+
+                </ul>
+
+            </div>
+
+            <div class="certificate-buttons">
+
+                <a id="view-certificate"
+
+                   target="_blank"
+
+                   class="primary-btn">
+
+                    View Certificate
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 </div>
 
-</div>
+<!-- ========================================================= -->
+<!-- LEADERSHIP & RECOGNITION -->
+<!-- ========================================================= -->
 
-<aside class="contact-info">
-  <p><strong>Email:</strong> <a href="mailto:namdevba000@gmail.com">namdevba000@gmail.com</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/TNamrathaPadiyar" target="_blank">github.com/TNamrathaPadiyar</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/namratha-padiyar" target="_blank">linkedin.com/in/namratha-padiyar</a></p>
-</aside>
+<section id="leadership" class="leadership-section">
 
-</div>
+    <div class="section-heading">
+
+        <p>LEADERSHIP & RECOGNITION</p>
+
+        <h2>
+
+            Experiences Beyond Academics
+
+        </h2>
+
+    </div>
+
+    <div class="leadership-grid">
+
+        <article class="leadership-card">
+
+            <h3>
+
+                Research Presentations
+
+            </h3>
+
+            <p>
+
+                Presented research papers at NMITCON and academic
+                conferences, strengthening technical communication
+                and presentation skills.
+
+            </p>
+
+        </article>
+
+        <article class="leadership-card">
+
+            <h3>
+
+                Department Leadership
+
+            </h3>
+
+            <p>
+
+                Served as Student Coordinator for the Department
+                of Mathematics, supporting academic activities
+                and student engagement.
+
+            </p>
+
+        </article>
+
+        <article class="leadership-card">
+
+            <h3>
+
+                Event Leadership
+
+            </h3>
+
+            <p>
+
+                Led departmental events as Event Head, coordinating
+                planning, execution and team collaboration.
+
+            </p>
+
+        </article>
+
+        <article class="leadership-card">
+
+            <h3>
+
+                Sports Leadership
+
+            </h3>
+
+            <p>
+
+                Captained the MCA Throwball Team to consecutive
+                inter-college podium finishes while promoting
+                teamwork and leadership.
+
+            </p>
+
+        </article>
+
+    </div>
+
 </section>
 
-</main>
 
 
-<footer class="footer">
-© <span id="year"></span> T Namratha Padiyar — All Rights Reserved
+<!-- ========================================================= -->
+<!-- CONTACT -->
+<!-- ========================================================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-heading">
+
+        <p>CONTACT</p>
+
+        <h2>
+
+            Let's Connect
+
+        </h2>
+
+        <p>
+
+            Thank you for visiting my portfolio.
+            I'm always excited to discuss analytics,
+            reporting, business intelligence and
+            opportunities where data can create
+            meaningful business impact.
+
+        </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-card contact-email">
+
+            <h3>Email</h3>
+
+            <p>namrathapadiyart@gmail.com</p>
+            <button class="copy-email" type="button" data-email="namrathapadiyart@gmail.com" aria-label="Copy email address" title="Copy email address"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2Zm2-2v2h4a2 2 0 0 1 2 2v4h2V5h-8Zm4 4H6v8h8V9Z"/></svg></button>
+
+        </div>
+
+        <a href="https://github.com/TNamrathaPadiyar"
+
+           target="_blank"
+
+           class="contact-card">
+
+            <h3>GitHub</h3>
+
+            <p>
+
+                View Projects
+
+            </p>
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/namratha-padiyar/"
+
+           target="_blank"
+
+           class="contact-card">
+
+            <h3>LinkedIn</h3>
+
+            <p>
+
+                Connect with Me
+
+            </p>
+
+        </a>
+
+    </div>
+
+</section>
+
+<div id="document-modal" class="document-modal" aria-hidden="true">
+    <div class="document-overlay"></div>
+    <div class="document-container" role="dialog" aria-modal="true" aria-label="Report preview">
+        <button class="document-close" type="button" aria-label="Close report">&times;</button>
+        <iframe id="document-frame" title="Project report"></iframe>
+    </div>
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 T. Namratha Padiyar.
+        Designed & Developed with HTML, CSS & JavaScript.
+
+    </p>
+
 </footer>
 
+
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
