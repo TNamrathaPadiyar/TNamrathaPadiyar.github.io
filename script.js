@@ -17,7 +17,7 @@ document.querySelectorAll(".nav-links a").forEach(a => a.addEventListener("click
 window.addEventListener("scroll", () => navbar.classList.toggle("scrolled", window.scrollY > 60));
 
 const grid = document.querySelector("#projects-grid");
-const projectOrder = ["workforcePlanning", "workforce", "adoption", "stylesense", "retail", "delivery", "telecom"];
+const projectOrder = ["adoption", "workforcePlanning", "stylesense", "delivery", "retail", "workforce", "telecom"];
 grid.innerHTML = projectOrder.map(id => [id, projects[id]]).map(([id,p]) => `<article class="project-card" data-project="${id}" tabindex="0" role="button" aria-label="Open ${p.title}"><div class="project-thumbnail"><img src="${p.thumbnail}" alt="${p.title} project thumbnail"></div><div class="project-content"><span class="project-domain">${p.domain}</span><h3>${p.title}</h3><p>${p.description}</p><div class="project-tools">${p.tools.slice(0,4).map(t=>`<img src="${asset+t}" alt="">`).join("")}</div><span class="view-project">View project details →</span></div></article>`).join("");
 
 const projectModal=document.querySelector("#project-modal"), closeProjectButton=document.querySelector(".modal-close");
